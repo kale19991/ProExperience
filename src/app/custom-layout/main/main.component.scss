@@ -1,0 +1,12 @@
+:host {
+  height: calc(100vh - 224px);
+  flex: 20 1 500px;
+  .container {
+    margin: 0;
+    padding: 1;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+

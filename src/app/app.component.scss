@@ -1,0 +1,15 @@
+:host {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100vw;
+}
+
+app-header,
+app-nav,
+app-main,
+app-aside,
+app-footer {
+  background: #a1a1a1;
+  display: flex;
+  margin: 3px;
+}

@@ -1,0 +1,30 @@
+:host {
+  height: 100px;
+  flex: 1 1 100vw;
+
+
+}
+
+
+
+ .logo {
+   display: flex;
+   flex: 0 1 200px;
+   background: transparent;
+   justify-content: center;
+   align-items: center;
+   color: red;
+ }
+
+ .nav {
+  display: flex;
+  flex: 1 1 200px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+
+    a,
+    p {
+      margin: 0 3%;
+    }
+ }
